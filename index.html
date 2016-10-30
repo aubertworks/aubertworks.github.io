@@ -5,31 +5,32 @@
     <meta charset="utf-8">
     <title>DRY OAR RAFTING</title>
     <style>
-        @import url('https://fonts.googleapis.com/css?family=Oswald');
+        @import url('https://fonts.googleapis.com/css?family=Arimo');
         #whole-page {
             width: 960px;
             margin: 0 auto;
         }
         
         .leftcol {
-            width:48%;
-            
+            width: 48%;
         }
+        
         .rightcol {
-            width:48%;
+            width: 48%;
         }
         
         section {
-            padding: 15px;
+            padding: 1em;
         }
         
         nav {
+            font-size: 1.1em;
             background-color: #7a787a;
             color: #d9d9dc;
-            width:940px;
+            width: 940px;
         }
         
-        #section2 {
+        #middlesection {
             width=940px;
             background-color: #43d780;
         }
@@ -38,8 +39,9 @@
             color: white;
         }
         
-        #section3 {
+        #bottomsection {
             text-align: center;
+            width: 48%;
         }
         
         h1,
@@ -48,20 +50,26 @@
         h4,
         h5,
         h6 {
-            font-family: "oswald", "avenir", sans-serif;
-            font-weight: ;
+            font-family: "Arimo", "avenir", sans-serif;
+            font-size: 1.1em;
             color: #7a787a;
-            margin-bottom:0;
+            margin-bottom: 0em;
+            margin-top: 1.5em;
+            line-height: 1em;
         }
         
         body {
-            font-family: "oswald", "avenir", sans-serif;
+            font-family: "Arimo", "avenir", sans-serif;
         }
         
         p {
             color: #7a787a;
             line-height: 2;
-            margin-top:0.5em;
+            margin-top: 0.5em;
+        }
+        
+        #footer {
+            padding: 1em;
         }
         
         #copy {
@@ -85,7 +93,7 @@
         <header>
             <img src="header.png" alt="Rapids">
         </header>
-        <section id="section1">
+        <section id="topsection">
             <div class="leftcol">
                 <h1>we run rivers to relax.</h1>
                 <p>If your oars are wet, you're doing it wrong. At Dry Oar Rafting, we believe in a healthy break to enjoy a nice sunset. We're all about enjoying and helping you enjoy the small things in life.</p>
@@ -94,7 +102,7 @@
                 <img src="sunset.png" alt="Sunset Over the Lake">
             </div>
         </section>
-        <section id="section2">
+        <section id="middlesection">
             <div class="leftcol ">
                 <img src="rush.png" alt="Rafting In Action">
             </div>
@@ -103,9 +111,9 @@
                 <p class="rush-text">don't hit the X yet! we do believe in adventure. that's why we provide you with some of the finest rapids on earth. from family fun to furiously fierce, our rides are guaranteed to get you wet. </p>
             </div>
         </section>
-        <section id="section3">
+        <section id="bottomsection">
             <h3>come run with us.</h3>
-            <p>we want to hear from you. come run with us and see what the fuzz is all about.</p>
+            <p>we wouldn't exist without you. we want to hear from you. come run with us and see what we're all about. </p>
         </section>
     </div>
     <footer id="footer">
