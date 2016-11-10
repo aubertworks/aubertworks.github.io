@@ -6,17 +6,30 @@
     <title>DRY OAR RAFTING</title>
     <style>
         @import url('https://fonts.googleapis.com/css?family=Arimo');
-        #whole-page {
-            width: 960px;
+        #content {
+            width: 80%;
             margin: 0 auto;
+            max-width:1000px;
+        }
+        
+        img {
+            max-width: 100%;
+        }
+        
+        .fullwidth {
+            width: 100%;
         }
         
         .leftcol {
             width: 48%;
+            flex:1 0 15em;
+            margin: 0.5em;
         }
         
         .rightcol {
             width: 48%;
+            flex:1 0 15em;
+            margin:0.5em;
         }
         
         section {
@@ -27,12 +40,17 @@
             font-size: 1.1em;
             background-color: #7a787a;
             color: #d9d9dc;
-            width: 940px;
+        }
+        
+        #topsection,
+        #middlesection {
+            display: flex;
+            flex-flow: row wrap;
+            align-items:center;
         }
         
         #middlesection {
-            width=940px;
-            background-color: #43d780;
+            background-color: #7a787a;
         }
         
         .rush-text {
@@ -41,7 +59,10 @@
         
         #bottomsection {
             text-align: center;
-            width: 48%;
+            width: 70%;
+            margin: auto;
+            padding-top: 3em;
+            padding-bottom: 2em;
         }
         
         h1,
@@ -52,14 +73,22 @@
         h6 {
             font-family: "Arimo", "avenir", sans-serif;
             font-size: 1.1em;
-            color: #7a787a;
+            color: #43d780;
             margin-bottom: 0em;
             margin-top: 1.5em;
             line-height: 1em;
         }
         
+        h2 {
+            padding-left: 1em;
+        }
+        
         body {
             font-family: "Arimo", "avenir", sans-serif;
+        }
+        
+        #sunset {
+            float: right;
         }
         
         p {
@@ -69,7 +98,17 @@
         }
         
         #footer {
-            padding: 1em;
+            padding:1em;
+            margin:auto;
+            display: flex;
+            align-items: center;
+            max-height: 55px;
+        }
+        
+        .logo {
+            padding:1em;
+            float:right
+            
         }
         
         #copy {
@@ -79,7 +118,7 @@
 </head>
 
 <body>
-    <div id="whole-page">
+    <div id="content">
         <img src="dor.png" alt="Dry Oar Rafting logo">
         <nav>
             <ul>
@@ -91,7 +130,7 @@
             </ul>
         </nav>
         <header>
-            <img src="header.png" alt="Rapids">
+            <img class="fullwidth" src="header.png" alt="Rapids">
         </header>
         <section id="topsection">
             <div class="leftcol">
@@ -99,7 +138,7 @@
                 <p>If your oars are wet, you're doing it wrong. At Dry Oar Rafting, we believe in a healthy break to enjoy a nice sunset. We're all about enjoying and helping you enjoy the small things in life.</p>
             </div>
             <div class="rightcol">
-                <img src="sunset.png" alt="Sunset Over the Lake">
+                <img id="sunset" src="sunset.png" alt="Sunset Over the Lake">
             </div>
         </section>
         <section id="middlesection">
@@ -115,16 +154,16 @@
             <h3>come run with us.</h3>
             <p>we wouldn't exist without you. we want to hear from you. come run with us and see what we're all about. </p>
         </section>
-    </div>
     <footer id="footer">
         <div class="leftcol">
             <p id="copy">&copy; 2016 Dry Oar | Aubert L'Espérance</p>
         </div>
         <div class="rightcol"></div>
-        <a href="http://www.facebook.com" target="_blank"><img src="facebook.png" alt="facebook logo"> </a>
-        <a href="http://www.twitter.com" target="_blank"><img src="twitter.png" alt="twitter logo"> </a>
-        <a href="http://instagram.com" target="_blank"><img src="instagram.png" alt="instagram logo"> </a>
+        <a href="http://www.facebook.com" target="_blank"><img class="logo" src="facebook.png" alt="facebook logo"> </a>
+        <a href="http://www.twitter.com" target="_blank"><img class="logo" src="twitter.png" alt="twitter logo"> </a>
+        <a href="http://instagram.com" target="_blank"><img class="logo" src="instagram.png" alt="instagram logo"> </a>
     </footer>
+ </div>
 </body>
 
 </html>
