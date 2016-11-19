@@ -6,13 +6,15 @@
 }
 
 #dor {
-    position: relative;
-    border-style: inset;
-    border-color: black;
+    position:relative;
+    margin-left:1.6em;
+    border-style:solid;
+    border-color:black;
     border-width: thick;
-    background-color: white;
-    width: 115px;
-    height: 110px;
+    background-color:white;
+    width:115px;
+    height:110px;
+   
 }
 
 img {
@@ -40,12 +42,12 @@ section {
 }
 
 nav {
-    margin-top: -87px;
+    margin-top:-87px;
     font-size: 1.2em;
     background-color: #7a787a;
     color: #d9d9dc;
-    line-height: 3em;
-    padding-left: 3em;
+    line-height:3em;
+    padding-left:3.72em;
 }
 
 #topsection,
@@ -77,7 +79,7 @@ nav ul {
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
-    margin: 0;
+    margin:0;
 }
 
 nav li {
@@ -94,7 +96,7 @@ nav a:visited {
 
 nav a:hover {
     text-decoration: underline;
-    color: #43d780
+    color:#43d780
 }
 
 h1,
