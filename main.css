@@ -5,6 +5,17 @@
     max-width: 1000px;
 }
 
+#dor {
+    position:relative;
+    border-style:inset;
+    border-color: black;
+    border-width: thick;
+    background-color:white;
+    width:115px;
+    height:110px;
+   
+}
+
 img {
     max-width: 100%;
 }
@@ -20,7 +31,7 @@ img {
 }
 
 .rightcol {
-    width: 48%;
+    width: 100%;
     flex: 1 0 15em;
     margin: 0.5em;
 }
@@ -30,9 +41,12 @@ section {
 }
 
 nav {
-    font-size: 1.1em;
+    margin-top:-87px;
+    font-size: 1.2em;
     background-color: #7a787a;
     color: #d9d9dc;
+    line-height:3em;
+    padding-left:3em;
 }
 
 #topsection,
@@ -59,11 +73,12 @@ nav {
 }
 
 nav ul {
+    line-height: 3em;
     list-style-type: none;
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
-    line-height: 2em;
+    margin:0;
 }
 
 nav li {
@@ -72,13 +87,15 @@ nav li {
 }
 
 nav a:link,
-nav a: visited {
-    color: green;
+nav a:visited {
+    color: white;
     text-decoration: none;
+    padding: 1em 2.1em;
 }
 
 nav a:hover {
     text-decoration: underline;
+    color:#43d780
 }
 
 h1,
@@ -123,7 +140,7 @@ p {
 
 .logo {
     padding: 1em;
-    float: right
+    float: right;
 }
 
 #copy {
