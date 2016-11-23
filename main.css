@@ -95,7 +95,7 @@ nav a:visited {
 }
 
 nav a:hover {
-    text-decoration: underline;
+    text-decoration:none;
     color:#43d780
 }
 
