@@ -6,15 +6,14 @@
 }
 
 #dor {
-    position:relative;
-    margin-left:1.6em;
-    border-style:solid;
-    border-color:black;
+    position: relative;
+    margin-left: 1.6em;
+    border-style: solid;
+    border-color: black;
     border-width: thick;
-    background-color:white;
-    width:115px;
-    height:110px;
-   
+    background-color: white;
+    width: 115px;
+    height: 110px;
 }
 
 img {
@@ -29,6 +28,7 @@ img {
     width: 48%;
     flex: 1 0 15em;
     margin: 0.5em;
+    text-align:
 }
 
 .rightcol {
@@ -42,12 +42,12 @@ section {
 }
 
 nav {
-    margin-top:-87px;
+    margin-top: -87px;
     font-size: 1.2em;
     background-color: #7a787a;
     color: #d9d9dc;
-    line-height:3em;
-    padding-left:3.72em;
+    line-height: 3em;
+    padding-left: 3.72em;
 }
 
 #topsection,
@@ -79,7 +79,7 @@ nav ul {
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
-    margin:0;
+    margin: 0;
 }
 
 nav li {
@@ -95,8 +95,8 @@ nav a:visited {
 }
 
 nav a:hover {
-    text-decoration:none;
-    color:#43d780
+    text-decoration: none;
+    color: #43d780
 }
 
 h1,
@@ -111,6 +111,27 @@ h6 {
     margin-bottom: 0em;
     margin-top: 1.5em;
     line-height: 1em;
+}
+
+#faqheader {
+    position: relative;
+    margin-top: em;
+    text-align: center;
+}
+
+#faq {
+    font-size: 30px;
+    color: #43d780;
+}
+
+.slightlydarker {
+    font-size: 16px;
+}
+
+#questions {
+    position: relative;
+    margin-top: em;
+    text-align: justify;
 }
 
 h2 {
@@ -129,6 +150,18 @@ p {
     color: #7a787a;
     line-height: 2;
     margin-top: 0.5em;
+}
+
+#salmontext {
+    font-size: 14px
+}
+
+#graytext {
+    font-size: 13px
+}
+
+#grandtext {
+    font-size: 13px
 }
 
 #footer {
