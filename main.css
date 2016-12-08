@@ -163,6 +163,12 @@ p {
     font-size: 13px
 }
 
+#whatbring {
+    color: #7a787a;
+    line-height: 2;
+    text-align: justify;
+}
+
 #footer {
     padding: 1em;
     margin: auto;
