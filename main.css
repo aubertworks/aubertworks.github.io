@@ -133,6 +133,13 @@ h6 {
     text-align: justify;
 }
 
+.oops {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 1em;
+    color: black;
+}
+
 h2 {
     padding-left: 1em;
 }
