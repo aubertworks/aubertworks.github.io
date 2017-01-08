@@ -1,0 +1,28 @@
+.left {
+    float: left;
+}
+
+.middle {
+    float:left;
+    margin-left:0.5em;
+    background-color:#AB996C;
+    width:2px;
+    height:65px;
+}
+
+.right {
+    font-family: helvetica;
+    font-size: 12px;
+    float:left;
+    margin-left:0.5em;
+    margin-top:0.2em;
+}
+
+.logo {
+    max-height:15px;
+    margin-top:2px;
+}
+
+#pic {
+    max-height:65px;
+}
